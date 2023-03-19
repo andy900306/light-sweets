@@ -549,6 +549,12 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 .alert-danger {
   background-color: #ff9966;
 }
+.mbr-section-btn a.btn:not(.btn-form) {
+  border-radius: 100px;
+}
+.mbr-gallery-filter li a {
+  border-radius: 100px !important;
+}
 .mbr-gallery-filter li.active .btn {
   background-color: #e6d1c3;
   border-color: #e6d1c3;
@@ -556,6 +562,9 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 }
 .mbr-gallery-filter li.active .btn:focus {
   box-shadow: none;
+}
+.nav-tabs .nav-link {
+  border-radius: 100px !important;
 }
 a,
 a:hover {
@@ -612,6 +621,19 @@ blockquote {
   border-color: #e6d1c3;
 }
 /* Forms */
+.mbr-form .input-group-btn a.btn {
+  border-radius: 100px !important;
+}
+.mbr-form .input-group-btn a.btn:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
+.mbr-form .input-group-btn button[type="submit"] {
+  border-radius: 100px !important;
+  padding: 1rem 3rem;
+}
+.mbr-form .input-group-btn button[type="submit"]:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
 .jq-selectbox li:hover,
 .jq-selectbox li.selected {
   background-color: #e6d1c3;
@@ -682,14 +704,8 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-tyUIG4ic4y {
-  z-index: 1000;
-  width: 100%;
-  position: relative;
-  min-height: 60px;
-}
-.cid-tyUIG4ic4y nav.navbar {
-  position: fixed;
+.cid-tyUIG4ic4y .navbar-dropdown {
+  position: relative !important;
 }
 .cid-tyUIG4ic4y .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -1027,7 +1043,6 @@ a {
 }
 .cid-tyUIG4ic4y .navbar-dropdown {
   padding: 0 1rem;
-  position: fixed;
 }
 .cid-tyUIG4ic4y a.nav-link {
   display: flex;
@@ -1178,14 +1193,8 @@ a {
 .cid-tyWhOlEESJ .media-container-row .mbr-text {
   color: #000000;
 }
-.cid-tyUNdxWGT7 {
-  z-index: 1000;
-  width: 100%;
-  position: relative;
-  min-height: 60px;
-}
-.cid-tyUNdxWGT7 nav.navbar {
-  position: fixed;
+.cid-tyUNdxWGT7 .navbar-dropdown {
+  position: relative !important;
 }
 .cid-tyUNdxWGT7 .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -1523,7 +1532,6 @@ a {
 }
 .cid-tyUNdxWGT7 .navbar-dropdown {
   padding: 0 1rem;
-  position: fixed;
 }
 .cid-tyUNdxWGT7 a.nav-link {
   display: flex;
